@@ -1,0 +1,8 @@
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta1
+kind: HelmRepository
+metadata:
+  name: wow
+spec:
+  interval: 30m0s
+  url: "https://wowk8shelmrepo.blob.core.windows.net/helmrepo/?se=2030-01-01&sp=rl&sv=2018-03-28&sr=c&sig=bJ3qTtJhl3bv6/noudKQqIEdXCPlh8S6Wvo/HcJizoA%3D"
