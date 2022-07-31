@@ -6,7 +6,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 5m0s
-  path: ./components/common/namespaces
+  path: ./components/common/namespaces/kustomization.yaml
   prune: true
   sourceRef:
     kind: GitRepository
@@ -21,7 +21,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 5m0s
-  path: ./components/sources
+  path: ./components/sources/kustomization.yaml
   prune: true
   sourceRef:
     kind: GitRepository
