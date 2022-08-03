@@ -6,7 +6,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 5m0s
-  path: clusters/aks_cluster/components/common/namespaces
+  path: clusters/gke_cluster/components/common/namespaces
   prune: true
   sourceRef:
     kind: GitRepository
@@ -21,7 +21,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 5m0s
-  path: clusters/aks_cluster/components/sources
+  path: clusters/gke_cluster/components/sources
   prune: true
   sourceRef:
     kind: GitRepository
