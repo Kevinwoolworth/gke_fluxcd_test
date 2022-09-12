@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: any-old-app
+  namespace: default
 spec:
   replicas: 1
   selector:
@@ -13,7 +14,7 @@ spec:
         app: any-old-app
     spec:
       containers:
-      - image: kevincai2022/any-old-app:ecd49ebd
+      - image: kevincai2022/any-old-app:b3260285
         name: any-old-app
 
 ---
@@ -22,6 +23,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: any-old-app
+  namespace: default
 spec:
   type: ClusterIP
   ports:
