@@ -16,3 +16,5 @@ podinfo-source.yaml
 GitHub Actions Manifest Generation
 
 https://fluxcd.io/flux/use-cases/gh-actions-manifest-generation/
+
+# Deploy branch
