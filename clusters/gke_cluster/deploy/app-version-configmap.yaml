@@ -1,6 +1,6 @@
 apiVersion: v1
 data:
-  GIT_SHA: 031c65aa
+  GIT_SHA: b649130b
 kind: ConfigMap
 metadata:
   name: any-old-app-latest-version
