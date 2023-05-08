@@ -14,7 +14,7 @@ spec:
         app: any-old-app
     spec:
       containers:
-      - image: kevincai2022/any-old-app:d7a55eb5
+      - image: kevincai2022/any-old-app:7a034343
         name: any-old-app
 
 ---
